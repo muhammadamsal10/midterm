@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #f8f7f7;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul {
+
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #f00;
+  color: #333;
+  border-radius: 5px;
+}
+
+nav ul li a.help {
+  background: #4CAF50;
+  color: #fff;
+  border: 1px solid #4CAF50
+}
+
+
+
+.banner {
+  padding-left: 55px;
+  padding-top: 35px;
+  font-size: 40px;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+
+
+.banner div span {
+  display: flex;
+  display: block;
+
+}
+
+
+.banner p {
+  font-size: large;
+  color: #575454;
+  padding-top: 35px;
+
+}
+
+.b1 {
+  background-color: black;
+  color: #fff;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 500;
+
+}
+
+
+
+.underbanner {
+  background-color: #4CAF50;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 7%;
+  display: flex;
+
+  padding: 38px;
+  border-radius: 7px;
+  justify-content: space-around;
+
+}
+
+.underbanner P {
+  font-size: 20px;
+}
+
+.underbanner button {
+
+  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #000000;
+  color: #fff;
+}
+
+.underbanner input {
+  border-radius: 9px;
+}
+
+
+
+
+
+.howtere p span {
+  color: #4CAF50;
+  
+}
+.howtere p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 42%;
+  margin-top: 2%;
+}
+
+.howtere small{
+
+margin-left: 25%;
+font-size: 15px;
+
+}
+
+
+.features  {
+
+ background-color: #575454;
+ width: 40%;
+ align-items: flex-start;
+
+  
+  
+}
+
+
+.ride {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+
+.instant {
+
+  margin-left: 0%;
+  margin-top: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
