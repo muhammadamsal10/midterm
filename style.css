@@ -35,7 +35,8 @@ nav ul li a {
   padding: 8px 16px;
   border: 1px solid #f00;
   color: #333;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 nav ul li a.help {
@@ -140,34 +141,145 @@ font-size: 15px;
 
 .features  {
 
- background-color: #575454;
- width: 40%;
- align-items: flex-start;
+ display: flex;
+flex-direction: row;
+   padding-left: 13%;
+ padding-top: 5%;
 
+ 
+
+ 
+ }
+
+
+
+.instant{
+  padding-top: 29%;
+ 
   
+}
+
+
+.post {
+  position: relative;
+  bottom: 60%;
+  left: 180%;
   
 }
 
+.postimg {
+position: relative;
+bottom: 60%;
+}
 
-.ride {
-  margin-top: 5%;
-  margin-left: 3%;
+.cash{
+  position: relative;
+  bottom: 45%;
+  left: 180%;
+}
+
+.cashimg{
+  position: relative;
+bottom: 45%;
+left: 180%;
 }
 
 
-.instant {
 
-  margin-left: 0%;
-  margin-top: 8%;
+.tereben{
+  margin-left: 43%;
+  font-size: 35px;
+  
+}
+
+.tereben h3  span {
+  color: #4CAF50;
+}
+
+
+.workhourdiv p{
+color: #575454;
+font-size: 22px;
+
+}
+
+.workhourdiv h2{
+  font-size: 35px;
+  color: #0e0d0d;
+}
+
+.workhour{
+display: flex;
+justify-content: space-around;
+}
+
+
+.money {
+  margin-top: 2%;
+  display: flex;
+justify-content: space-around;
+}
+
+
+.money div h2{
+  font-size:35px ;
+}
+
+.money div div p {
+  color: #575454;
+font-size: 22px;
+
 }
 
 
 
+.care{
+  display: flex;
+justify-content: space-around;
+}
+
+.carediv h2 {
+font-size: 35px;
+  color: #0e0d0d;
+}
+
+.carediv p {
+  color: #575454;
+font-size: 22px;
+}
+
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+ 
+  
+  margin: 10%;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  gap: 35%;
+  padding-right: 6%;
+  
+ }
+
+ .down button {
+background-color: #000000;
+color: #fff;
+padding: 7%;
+padding-left: 10%;
+border-radius: 8%;
+padding-right: 10%;
+ }
 
 
 
 
 
-
-
-
+ .footimg{
+  display: flex;
+  align-items: center;
+}
