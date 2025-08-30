@@ -143,7 +143,7 @@ font-size: 15px;
 
  display: flex;
 flex-direction: row;
-   padding-left: 13%;
+   padding-left: 15%;
  padding-top: 5%;
 
  
@@ -163,7 +163,7 @@ flex-direction: row;
 .post {
   position: relative;
   bottom: 60%;
-  left: 180%;
+  left: 205%
   
 }
 
@@ -175,19 +175,19 @@ bottom: 60%;
 .cash{
   position: relative;
   bottom: 45%;
-  left: 180%;
+  left: 205%;
 }
 
 .cashimg{
   position: relative;
 bottom: 45%;
-left: 180%;
+left: 205%;
 }
 
 
 
 .tereben{
-  margin-left: 43%;
+  margin-left: 40%;
   font-size: 35px;
   
 }
@@ -211,6 +211,8 @@ font-size: 22px;
 .workhour{
 display: flex;
 justify-content: space-around;
+width: 70%;
+margin-left: 15%;
 }
 
 
@@ -218,6 +220,8 @@ justify-content: space-around;
   margin-top: 2%;
   display: flex;
 justify-content: space-around;
+width: 70%;
+margin-left: 19%;
 }
 
 
@@ -236,6 +240,8 @@ font-size: 22px;
 .care{
   display: flex;
 justify-content: space-around;
+width: 70%;
+margin-left: 15%;
 }
 
 .carediv h2 {
@@ -283,3 +289,10 @@ padding-right: 10%;
   display: flex;
   align-items: center;
 }
+
+
+
+
+
+
+
